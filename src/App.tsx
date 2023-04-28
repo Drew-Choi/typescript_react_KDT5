@@ -7,6 +7,7 @@ import ParentProps from './components/ParentProps';
 import Todo from './components/Todo';
 import Header from './components/Header';
 import Section from './components/Section';
+import Tail from './components/Tail';
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
 
      <ParentProps /> */}
      {/* <Todo /> */}
-
+{/* 
      <Header />
-     <Section color='blue'/>
+     <Section color='blue'/> */}
+     <Tail />
     </div>
   );
 }
