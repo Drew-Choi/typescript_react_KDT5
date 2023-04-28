@@ -19,7 +19,7 @@ function App() {
      {/* <Todo /> */}
 
      <Header />
-     <Section />
+     <Section color='blue'/>
     </div>
   );
 }

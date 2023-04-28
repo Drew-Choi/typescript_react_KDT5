@@ -5,13 +5,25 @@
   background-color: #ddd;
   border-radius: 10px;
   font-weight: 700;
+
+  p{
+    color: red;
+  }
 }
 
-.BTN {
+button {
   padding: 10px;
   border: 0;
   background-color: orange;
   font-weight: 700;
   color: white;
   border-radius: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
 }
