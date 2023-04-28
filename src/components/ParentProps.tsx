@@ -16,7 +16,7 @@ export default function ParentProps() {
 
   return (
     <>
-      <Props name={tetz.name} age={tetz.age} hobbies={tetz.hobbies} />
+      <Props {...tetz} />
     </>
   )
 }
