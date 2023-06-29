@@ -18,6 +18,7 @@ export default function Todo() {
         task: inputRef.current.value,
         done: false
       }
+      // 이걸 기억해
       setTodoArr([...todoArr, newtodo])
       // let copy:Array<Task> = [...todoArr]
       // //...이걸 써야 새로운 주소를 인식하게 됨
